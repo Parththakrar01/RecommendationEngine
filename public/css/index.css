@@ -1,0 +1,60 @@
+.detail {
+  margin-top: 30px;
+}
+
+.btn {
+  background: white;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.myText {
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.Rating {
+  margin: 30px;
+  margin-left: 70px;
+}
+
+.Rating input {
+  margin-left: 20px;
+}
+
+#submit {
+  margin-left: 150px;
+}
+
+#searchForm {
+  padding-top: 30px;
+}
+
+#Heading {
+  font-size: 35px;
+}
+
+#movies img {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+#movies {
+  padding-bottom: 30px;
+}
+
+#movies .col-md-3 .well {
+  height: 400px;
+}
+
+#plot {
+  margin-top: 40px;
+}

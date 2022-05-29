@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<!-- This page will be loaded when user clicker on the poster of some movie. -->
+
+<head>
+    <meta charset="utf-8">
+    <title>MovieInfo</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="btn btn-default">Go Back To Search</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div id="movie" class="well"></div>
+    </div>
+
+    <div class="Rating">
+        <h4>
+            <label>Rate:</label>
+            <input type="radio" name="rating" value="0">0
+            <input type="radio" name="rating" value="1">1
+            <input type="radio" name="rating" value="2">2
+            <input type="radio" name="rating" value="3">3
+            <input type="radio" name="rating" value="4">4
+            <input type="radio" name="rating" value="5">5
+            <input type="radio" name="rating" value="6">6
+            <input type="radio" name="rating" value="7">7
+            <input type="radio" name="rating" value="8">8
+            <input type="radio" name="rating" value="9">9
+            <input type="radio" name="rating" value="10">10
+            <a href="index.html" class="btn btn-default" id="submit">Submit</a>
+        </h4>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./javascript/movie.js"></script>
+    <script>
+        getMovie();
+    </script>
+</body>
+
+</html>
